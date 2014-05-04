@@ -1,0 +1,13 @@
+{
+    "name": "iTunesArtworkAPI",
+    "version": "1.0.0",
+    "author": "GP <exchequer598@gmail.com>",
+    "description": "A simple API for searching the iTunes Artwork library built using Node.JS and Restify.",
+    "private": true,
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "restify": "~2.7.0"
+    }
+}
