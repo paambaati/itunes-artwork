@@ -1,7 +1,7 @@
 /**
  * iTunes Artwork API - Entry Point
  * Author: GP.
- * Version: 1.0
+ * Version: 1.0.1
  * Release Date: 04-May-2014
  */
 
@@ -9,8 +9,7 @@
  * Main app dependencies.
  */
 
-var restify = require('restify'),
-    routes = require('./routes');
+var restify = require('restify');
 
 /**
  * Settings.
