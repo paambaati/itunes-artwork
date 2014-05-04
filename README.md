@@ -23,6 +23,17 @@ http://127.0.0.1:3000/find/search?term=<ALBUM NAME>&country=<COUNTRY CODE>
 
 For example, to fetch all results for the Rise Against album *"Long Forgotten Songs: B-Sides & Covers"*, the URL will be `127.0.0.1:3000/find/search?term=long forgotten songs&country=us`
 
+The JSON response looks like this.
+
+```json
+[{
+    "album": "Long Forgotten Songs: B-Sides & Covers 2000-2013",
+    "artist": "Rise Against",
+    "artwork_100": "http://a5.mzstatic.com/us/r30/Music6/v4/b9/f6/1a/b9f61a0b-d8f6-5314-c089-cf6b81f9fcd1/UMG_cvrart_00602537463053_01_RGB72_1470x1470_13UAAIM42739.100x100-75.jpg",
+    "artwork_600": "http://a5.mzstatic.com/us/r30/Music6/v4/b9/f6/1a/b9f61a0b-d8f6-5314-c089-cf6b81f9fcd1/UMG_cvrart_00602537463053_01_RGB72_1470x1470_13UAAIM42739.600x600-75.jpg",
+    "artwork_1200": "http://a5.mzstatic.com/us/r30/Music6/v4/b9/f6/1a/b9f61a0b-d8f6-5314-c089-cf6b81f9fcd1/UMG_cvrart_00602537463053_01_RGB72_1470x1470_13UAAIM42739.1200x1200-75.jpg"
+}]
+
 ###Notes
 
 1. Allowed country codes are one of these - `"us", "gb", "ca", "de", "se", "nl", "it", "ch", "ru", "au", "jp", "br", "fr", "gr", "es", "dk"`.
