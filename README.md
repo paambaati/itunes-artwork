@@ -33,9 +33,10 @@ The JSON response looks like this.
     "artwork_600": "http://a5.mzstatic.com/us/r30/Music6/v4/b9/f6/1a/b9f61a0b-d8f6-5314-c089-cf6b81f9fcd1/UMG_cvrart_00602537463053_01_RGB72_1470x1470_13UAAIM42739.600x600-75.jpg",
     "artwork_1200": "http://a5.mzstatic.com/us/r30/Music6/v4/b9/f6/1a/b9f61a0b-d8f6-5314-c089-cf6b81f9fcd1/UMG_cvrart_00602537463053_01_RGB72_1470x1470_13UAAIM42739.1200x1200-75.jpg"
 }]
+```
 
 ###Notes
 
-1. Allowed country codes are one of these - `"us", "gb", "ca", "de", "se", "nl", "it", "ch", "ru", "au", "jp", "br", "fr", "gr", "es", "dk"`.
+1. Allowed country codes are one of these - `"us"`, `"gb"`, `"ca"`, `"de"`, `"se"`, `"nl"`, `"it"`, `"ch"`, `"ru"`, `"au"`, `"jp"`, `"br"`, `"fr"`, `"gr"`, `"es"`, `"dk"`.
 2. The API wrapper searches only for music album covers by default. For searching other media (like book covers, app store icons, etc.), refer the Search API documentation [here](http://www.apple.com/itunes/affiliates/resources/documentation/itunes-store-web-service-search-api.html  "iTunes, App Store, iBooks, and Mac App Store Affiliate Resources - Search API").
 3. Restify automatically URL-encodes the search query string, so spaces are okay to be sent in the `GET` body.
