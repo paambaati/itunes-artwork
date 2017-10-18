@@ -5,7 +5,7 @@ A barebones API for searching the iTunes Artwork library for music album covers 
 
 Inspired by [Ben Dodson's iTunes Artwork Finder](http://bendodson.com/projects/itunes-artwork-finder/ "Ben Dodson: iTunes Artwork Finder; TV Shows, Music Albums, Movies, Apps, and iBooks"), I decided to roll out my own open source API wrapper for the [iTunes Search API](http://www.apple.com/itunes/affiliates/resources/documentation/itunes-store-web-service-search-api.html "iTunes, App Store, iBooks, and Mac App Store Affiliate Resources - Search API").
 
-###Usage
+### Usage
 
  
  - Clone this reposity using the command -
@@ -35,7 +35,7 @@ The JSON response looks like this.
 }]
 ```
 
-###Notes
+### Notes
 
 1. Allowed country codes are one of these - `"us"`, `"gb"`, `"ca"`, `"de"`, `"se"`, `"nl"`, `"it"`, `"ch"`, `"ru"`, `"au"`, `"jp"`, `"br"`, `"fr"`, `"gr"`, `"es"`, `"dk"`.
 2. The API wrapper searches only for music album covers by default. For searching other media (like book covers, app store icons, etc.), refer the Search API documentation [here](http://www.apple.com/itunes/affiliates/resources/documentation/itunes-store-web-service-search-api.html  "iTunes, App Store, iBooks, and Mac App Store Affiliate Resources - Search API").
